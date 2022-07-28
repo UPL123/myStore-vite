@@ -1,0 +1,39 @@
+{
+    "short_name": "Store",
+    "name": "MyStore",
+    "description": "WebXR in a fake store",
+    "theme_color": "#646cff",
+    "background_color": "#646cff",
+    "icons": [
+        {
+            "src": "/icon.svg",
+            "type": "image/svg+xml",
+            "sizes": "72x72 96x96 144x144 152x152 192x192 384x384 512x512",
+            "purpose": "any"
+        },
+        {
+            "src": "/img/maskable_icon.png",
+            "type": "image/png",
+            "sizes": "1024x1024",
+            "purpose": "any maskable"
+        }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "shortcuts": [
+        {
+            "name":"Home",
+            "url":"/",
+            "description":"Go to home",
+            "short_name":"Home",
+            "icon":"/icon.svg"
+        },
+        {
+            "name":"Products",
+            "url":"/",
+            "description":"Check out products",
+            "short_name":"Products",
+            "icon":"/icon.svg"
+        }
+    ]
+}

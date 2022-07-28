@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#646cff" />
+    <link rel="apple-touch-icon" type="image/svg+xml" href="/icon.svg" />
+    <title>MyStore</title>
+  </head>
+  <body>
+    <header>
+      <h1>MyStore</h1>
+      <a href="">Home</a>
+      <a href="">Products</a>
+    </header>
+    <main>
+      <aside>
+        <div class="list">
+          <h2>
+            My cart
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-shopping-cart"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="#242424"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <circle cx="6" cy="19" r="2" />
+              <circle cx="17" cy="19" r="2" />
+              <path d="M17 17h-11v-14h-2" />
+              <path d="M6 5l14 1l-1 7h-13" />
+            </svg>
+          </h2>
+          <div class="item">
+            <img src="/img/sofa.png" alt="sofa image" />
+            <div class="text">
+              <a href="">Sofa</a>
+              <p>$120.000</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="/img/headset.png" alt="oculus headset" />
+            <div class="text">
+              <a href="">Oculus VR Headset</a>
+              <p class="discount"><span>$230.000</span> $180.000</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="/img/server.png" alt="server" />
+            <div class="text">
+              <a href="">Server</a>
+              <p>$650.000</p>
+            </div>
+          </div>
+        </div>
+        <div class="pay-container">
+          <h1>$950.000</h1>
+          <button type="button">
+            Buy
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-shopping-cart"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="#ffffff"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <circle cx="6" cy="19" r="2" />
+              <circle cx="17" cy="19" r="2" />
+              <path d="M17 17h-11v-14h-2" />
+              <path d="M6 5l14 1l-1 7h-13" />
+            </svg>
+          </button>
+        </div>
+      </aside>
+      <section>
+        <div class="pre">
+          <div class="text">
+            <h2>Compass</h2>
+            <p>$800</p>
+            <div class="btns">
+              <button type="button">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon icon-tabler icon-tabler-shopping-cart"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="#ffffff"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <circle cx="6" cy="19" r="2" />
+                  <circle cx="17" cy="19" r="2" />
+                  <path d="M17 17h-11v-14h-2" />
+                  <path d="M6 5l14 1l-1 7h-13" />
+                </svg>
+                Add to cart
+              </button>
+              <button type="button" id="vr">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon icon-tabler icon-tabler-cardboards"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="#ffffff"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path
+                    d="M3 7v8.5a2.5 2.5 0 0 0 2.5 2.5h1.06a3 3 0 0 0 2.34 -1.13l1.54 -1.92a2 2 0 0 1 3.12 0l1.54 1.92a3 3 0 0 0 2.34 1.13h1.06a2.5 2.5 0 0 0 2.5 -2.5v-8.5a2 2 0 0 0 -2 -2h-14a2 2 0 0 0 -2 2z"
+                  />
+                  <circle cx="8" cy="11" r="1" />
+                  <circle cx="16" cy="11" r="1" />
+                </svg>
+                Test it out
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

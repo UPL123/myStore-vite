@@ -1,0 +1,195 @@
+:root {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  background-color: #ffffff;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color: #242424;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+.discount {
+  color: #ff4141;
+}
+
+.discount span {
+  color: #ff4141;
+  text-decoration: line-through;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex * {
+  margin-right: 10px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  height: 60px;
+  border-bottom: 1px solid #e6e6e6;
+  z-index: 1;
+}
+
+header * {
+  margin-right: 20px;
+}
+
+main {
+  display: flex;
+  height: calc(100vh - 64px);
+}
+
+.item {
+  display: flex;
+}
+
+.item img {
+  width: 70px;
+  height: 70px;
+}
+
+.item div {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.item div p {
+  margin: 0;
+}
+
+.item a {
+  font-size: 20px;
+}
+
+aside {
+  height: 100%;
+  min-width: 290px;
+  border-right: 1px solid #e6e6e6;
+}
+
+.list {
+  padding: 10px;
+  height: calc(100% - 224px);
+  width: 290px;
+}
+
+.pay-container {
+  border-top: 1px solid #e6e6e6;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+button {
+  border: none;
+  padding: 10px;
+  background-color: #646cff;
+  color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #535bf2;
+}
+
+button svg {
+  margin-left: 5px;
+}
+
+aside h2 {
+  display: flex;
+  align-items: center;
+}
+
+aside h2 svg {
+  margin-left: 10px;
+}
+
+section {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+section .pre {
+  display: flex;
+}
+
+section h2 {
+  font-size: 60px;
+}
+
+section .btns {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+section .btns * {
+  margin-right: 10px;
+}
+
+section .text p {
+  margin-top: 10px;
+}
+
+@media (max-height: 625px) {
+  .list {
+    height: 337px;
+  }
+}
+
+@media (max-width: 920px) {
+  section {
+    align-items: flex-start;
+  }
+  section .pre {
+    flex-direction: column;
+    text-align: center;
+  }
+  section .btns {
+    margin-top: 30px;
+    justify-content: center;
+  }
+}
+@media (max-width: 600px) {
+  * {
+    overflow: none;
+  }
+  aside {
+    display: none;
+  }
+  section {
+    margin-top: 30px;
+  }
+}

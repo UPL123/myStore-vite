@@ -1,0 +1,11 @@
+Model Information:
+* title:	Compass
+* source:	https://sketchfab.com/3d-models/compass-bf221d2c935a47728284af88ed33d0a3
+* author:	MasterMek (https://sketchfab.com/MasterMek)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Compass" (https://sketchfab.com/3d-models/compass-bf221d2c935a47728284af88ed33d0a3) by MasterMek (https://sketchfab.com/MasterMek) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
